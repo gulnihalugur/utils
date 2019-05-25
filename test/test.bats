@@ -3,7 +3,7 @@
 load test_helper
 
 @test "curl" {
-  run check_cmd "curl"
+  run check_cmd "olmayankomut"
   [ "$status" -eq 0 ]
 }
 
