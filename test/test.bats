@@ -2,7 +2,7 @@
 
 load test_helper
 
-@test "curl" {
+@test "curl2" {
   run check_cmd "olmayankomut"
   [ "$status" -eq 0 ]
 }
